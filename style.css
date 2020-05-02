@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.iphone {
+  position: relative;
+  top: 5vw;
+  width: 67.3mm;
+  height: 138.4mm;
+  background-color: white;
+  border-radius: 45px;
+  border: 8px black solid;
+  display: flex;
+}
+
+.iphone-bottom {
+  position: absolute;
+  width: 67.3mm;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  bottom: 0px;
+  height: 15mm;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.iphone-top {
+  position: absolute;
+  width: 67.3mm;
+  top: 0;
+  height: 15mm;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.iphone-top-speaker {
+  top: 20px;
+  position: absolute;
+  height: 4px;
+  width: 55px;
+  border-radius: 50px;
+  background-color: gray;
+}
+
+.home-button {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.site {
+  justify-self: center;
+  align-self: center;
+}
