@@ -28,11 +28,11 @@
         </div>
       </div>
     </div>
-    <button onclick="scrollIFrame('iframe', 0, 250);">run</button>
+    <input type = "text" id = "run" onchange = "run()"/>
     <script>
-      function scrollIFrame(name, x, y) {
-        var frame = document.getElementById(name);
-        frame.contentWindow.scrollTo(x, y);
+      function run(){
+        var url = document.getElementById("run").value;
+        document.getElementById('iframe').src = url;
       }
     </script>
   </body>
